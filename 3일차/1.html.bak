@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang ="ko">
+	<head>
+		<meta charset ="UTF-8">
+		<title>3일차 학습</title>
+	</head>
+	<body>
+		<header>
+			<h1>사이트연습1</h1>
+			<h2>사이트연습2</h2>
+			<h3>사이트연습3</h3>
+			<h4>사이트연습4</h4>
+			<h5>사이트연습5</h5>
+			<h6>사이트연습6</h6>
+			<nav>네비게이션 (메뉴1)</nav>
+		</header>
+		<main>
+			<section>
+				<h2>대메뉴 1</h2>
+				<article>
+					<h3>중메뉴 1</h3>
+					<div>
+						<h4>소메뉴 1</h4>
+						<p>어쩔티비 1</p>
+						<p><strong>어쩔</strong>티비 2</p>
+						CO<sup>2</sup>
+						<span>인라인 1</span>
+						<span>인라인 2</span>
+					</div>
+				</article>
+				<article>
+					<h3>중메뉴 2</h3>
+					<ol>
+						<li>순서1</li>
+						<li>순서2</li>
+					</ol>
+					<ul>
+						<li>순서없음1</li>
+						<li>순서없음2</li>
+					</ul>
+				</article>
+			</section>
+			<section>
+				<h2>대메뉴 2</h2>
+				<table>
+					<caption>테이블에 대한 설명 (어떤 테이블인지 자세하게 설명)</caption>
+					<colgroup>
+					</colgroup>
+					<thead>
+						<tr>
+							<th colspan="2">칼럼1</th>
+							<th rowspan="2">칼럼2</th>
+						</tr>
+						<tr>
+							<th>칼럼2-1</th>
+							<th>칼럼2-2</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>내용1-1</td>
+							<td>내용1-2</td>
+							<td>내용2</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<section>
+				<h2>이미지 넣기</h2>
+				<img src="https://pbs.twimg.com/media/Df-M4NLVQAACUT7zz.jpg" alt="이미지에 대한 설명(대체 텍스트)">
+				<a href ="https://ko.wikipedia.org/wiki/%EC%86%8C%ED%9D%AC_(1999%EB%85%84)" title="천소희 나무위키" target="_parent">천소희 나무위키 바로가기</a>
+			</section>
+				
+			<section>
+				<h2>유튜브 iframe으로 넣기 </h2>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/11cta61wi0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</section>
+
+		</main>
+		<footer>
+			주소정보 <br>
+			소유권명시
+		</footer>
+		<div class="explain-box">
+			<h3>1. 한글이 안나오는 경우</h3>
+			<p>
+				UTF-8과 lang 설정해도 한글이 안나오는 경우
+				문서-> 파일 인코딩-> UTF로 변환시켜서 다시 확인한다.
+			</p>
+			<h3>2. 태그의 기본 속성</h3>
+			<p>
+				브라우저에서 기본적으로 태그에 속성이 부여되어있다.
+				그래서 css로 기본 common.css 설정한다.
+			</p>
+			<h3>3. 블럭요소,인라인요소</h3>
+			<p>
+				span 같은 인라인요소는 '나는 텍스트 요소 라는 것이다'
+			</p>
+		</div>
+	</body>
+</html>
