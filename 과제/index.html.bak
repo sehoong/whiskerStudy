@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang ="ko">
+	<head>
+		<meta charset ="UTF-8">
+		<title>과제</title>
+		<style>
+
+			body {background-color: #fff; }
+			#wrap {display: block; width:100%;}
+			#wrap header{text-align:center;}
+			#wrap header > h1{color:#4d4d4d; box-shadow: 1px 1px 3px #000}
+			#wrap header .tit{font-size: 50px;color:#8cc540;}
+			#wrap header .tit > strong{color:#23b574;}
+			.con-area{display: block; max-width: 1440px; width: 100%; margin: 0 atuo; padding: 0 15px;}
+			#section-01 .card-news-wrap{display:flex; flex-wrap: wrap; padding: 30px 0; border-bottom:2px solid #000;}
+			#section-01 .card-news-wrap img{width: 250px; height: auto;}
+			.sm-tit{display: inline-block; background-color:#d9e021; padding: 5px 20px; font-size: 30px; font-weight: 700; color:#fff;}
+			.sm-tit-02{background-color:#01a89e}
+			#section-02{margin-bottom:50px; padding: 30px 0; border-bottom:2px solid #000;}
+			#section-02 .one-pick-video{display:flex;}
+			#section-02 .one-pick-video .sm-tit-03{height:40px; margin-right:50px; background-color: #8cc63e;}
+			#footer{display: block; max-width: 1440px; width: 100%; margin: 0 atuo; padding: 15px 30px; background-color:#4d4d4d; color:#fff;}
+
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>나홀로 <span class="tit"><strong>대전</strong>여행</span> 코스</h1>
+			</header>
+			<main>
+				<div class="con-area">
+					<section id="section-01">
+						<h2 class="sm-tit">Card-news</h2>
+						<div class="card-news-wrap">
+							<figure>
+								<img src="images/d-travel-01.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지01">
+							</figure>
+							<figure>
+								<img src="images/d-travel-02.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지02">
+							</figure>
+							<figure>
+								<img src="images/d-travel-03.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지03">
+							</figure>
+							<figure>
+								<img src="images/d-travel-04.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지04">
+							</figure>
+							<figure>
+								<img src="images/d-travel-05.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지05">
+							</figure>
+							<figure>
+								<img src="images/d-travel-06.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지06">
+							</figure>
+							<figure>
+								<img src="images/d-travel-07.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지07">
+							</figure>
+							<figure>
+								<img src="images/d-travel-08.jpg" alt="나홀로 대전여행소개 카드뉴스 이미지08">
+							</figure>
+						</div>
+					</section>
+						
+					<section id="section-02">
+						<h2 class="sm-tit sm-tit-02">내가 요새 즐겨 듣는 노래 TOP-5!</h2>
+						<ul class="song-list">
+							<li><a href="https://www.youtube.com/watch?v=EzQsoZYY470">Autumn Breeze - JIDA(지다)</a></li>
+							<li><a href="https://www.youtube.com/watch?v=o_1aF54DO60">Young and Beautiful - Lana Del Rey</a></li>
+							<li><a href="https://www.youtube.com/watch?v=sbR__Hr15Eo">Time To Go (Feat. 스윙스)</a></li>
+						</ul>
+						<div class="one-pick-video">
+							<h3 class="sm-tit sm-tit-03">그중 원픽 듣기!☞
+							</h3>
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/EzQsoZYY470" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+
+
+					</section>
+				</div>
+
+			</main>
+			<footer id="footer">
+				<p>잘하자 세훈아! 집가야지..<br>
+					대전광역시 서구 둔산남로 15 은하수 @...
+				 </p>
+			</footer>
+		</div>
+	</body>
+</html>
