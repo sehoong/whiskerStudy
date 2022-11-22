@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset ="UTF-8">
+		<title>4일차</title>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<label for="tel">전화번호 :</label>
+				<input id="tel"/ type="tel" placeholder="0101010101010" disabled>
+
+			</li>
+			<li>
+				<label for="checkbox2">배 :</label>
+				<input id="checkbox2" name="checkbox"/ type="checkbox">
+				<label for="checkbox3">수박 :</label>
+				<input id="checkbox3" name="checkbox"/ type="checkbox">
+				<label for="checkbox4">멜론 :</label>
+				<input id="checkbox4" name="checkbox"/ type="checkbox">
+			</li>
+			<li>
+				<label for="radio1">사과 :</label>
+				<input id="radio1" name="radio"/ type="radio">
+				<label for="radio2">배 :</label>
+				<input id="radio2" name="radio"/ type="radio">
+				<label for="radio3">수박 :</label>
+				<input id="radio4" name="radio"/ type="radio">
+			</li>
+			<li>
+				<label for="number">number :</label>
+				<input id="number"/ type="number">
+			</li>
+			<li>
+				<label for="range">range :</label>
+				<input id="range"/ type="range" min="10" max="100">
+			</li>
+			<li>
+				<label for="date">date :</label>
+				<input id="date"/ type="date">
+			</li>
+			<li>
+				<label for="month">month :</label>
+				<input id="month"/ type="month">
+			</li>
+			<li>
+				<label for="week">week :</label>
+				<input id="week"/ type="week">
+			</li>
+			<li>
+				<label for="time">time :</label>
+				<input id="time"/ type="time">
+			</li>
+			<li>
+				<label for="datetime-local">datetime :</label>
+				<input id="datetime-local"/ type="datetime-local">
+			</li>
+			<li>
+				<label for="submit">submit :</label>
+				<input id="submit"/ type="submit">
+			</li>
+			<li>
+				<form>
+					<label for="intxt">intxt :</label>
+					<input id="reintxt"/ type="intxt">
+					<label for="reset">reset :</label>
+					<input id="reset"/ type="reset">
+					<button type="reset"></button>
+				</form>
+			</li>
+			<li>
+				<label for="button">button :</label>
+				<input id="button"/ type="button" value="test">
+			</li>
+			<li>
+				<label for="file">file :</label>
+				<input id="file"/ type="file">
+			</li>
+			<li>
+				<label for="hidden">hidden :</label>
+				<input id="hidden"/ type="hidden">
+			</li>
+
+			<li>
+				<label for="select">select ; </label>
+				<select id="select">
+					<option>1</option>
+					<option selected>2</option>
+					<option>3</option>
+					<option>4</option>
+				</select>
+			</li>
+
+			<li>
+				<label for="textarea">textarea ; </label>
+				<textarea></textarea>
+			</li>
+
+			<li>
+				<button type="button">버튼</button>
+			</li>
+			<li>
+				회원가입 폼 만들기 과제
+				항목 : ID, 비밀번호 , 이름 , 생년월일 , 주소 , 전화번호, 이메일 , 
+				      나이, 체크박스로 : 좋아하는 과일(사과, 바나나 등) / 성별(라디오) 자기소개
+					  등록버튼 /리셋버튼
+			</li>
+		</ul>
++
+	</body>
+	<div class="note">
+		<p>
+			input은 lable 요소랑 같이 사용한다. 둘이 for id 값은 맞춘다. input의 type은 기본이 text이다.
+			label 앞에 input태그를 넣어서 사용해도 된다.
+			search=는 검색창에 닫기버튼 추가됨.
+			url, email같은 type은 구체적으로 표현하기 위해서 사용할 경우에 명시를 해줄뿐이다. 
+			<br>
+			input의 checkbox와 radio는 다중선택이나 하나만 선택되냐의 차이다.
+			radio는 다중선택 / checkbox는 단일선택
+			<br>
+			form의 데이터를 보내야할때 submit을 사용한다.
+			<br>
+			placeholder는 검색창안에 뜨는 문구
+		</p>
+	</div>
+</html>
