@@ -27,7 +27,7 @@ Cascading style sheet 상위에서부터 하위까지 위계질서가 있는 시
 -HTML5
  Doctype을 선언하기 시작
 
--meta 태그
+-meta 태그!
  웹에서 해당 사이트의 정보를 알려 주는 태그 (meta태그에 웹사이트의 정보를 담을 수 있음)
  ex) charset, keyworld,description, author, viewport // 크게 검색관련 메타태그랑 오픈그래프등으로 나눔
  viewport 뷰포트는 내가 보는 디바이스의 화면설정
