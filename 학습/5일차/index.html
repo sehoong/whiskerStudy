@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<link href="test.css" rel="">
+	<meta charset="UTF-8">
+	<title>5일차 CSS 기본기</title>
+	<style>
+		#box{display:inline-block; overflow: hidden; position: relative; width:300px; height:300px; margin: 0 50px 0 0; padding: 15px;/*  border-width: 13px 13px 13px 13px; border-style: solid; border-color: yellow red blue pink; */ border: 20px solid pink; background-color: #000;}
+		.box-01{width:100px; height:150px; font-size: 20px; font-weight: bold; color: #fff; line-height: 20px; background-color: yellow;}
+		.box-02{width:100px; height:150px; background-color: orange;}
+		#box2{display:inline-block; width:300px; height:300px; background-color:blue;}
+		#box3{overflow:hidden;}
+		.box-float{float:right; width:300px; height:300px; margin: 0 10px; background-color: green;}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<div class="box-01">
+			박스 테스트 1
+			<br>
+			박스 테스트 2
+		</div>
+
+		<div class="box-02">
+			박스 테스트
+		</div>
+	</div>
+	<div id="box2">
+	</div>
+
+	<div id="box3">
+		<div class="box-float"></div>
+		<div class="box-float"></div>
+		<div class="box-float"></div>
+	</div>
+	<p>123123123</p>
+	<div class="note">
+		<table>
+			<caption></caption>
+			<thead>
+				<tr>
+					<td>설명</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+					1. ID 는 고유값, Class 다중 / 같은 ID를 한 html에서 두개 이상 사용했을때, 선택자로 불러서 기능 사용시 오류발생.
+					2. CSS 속성 작성 순서
+					 1) display // show hide  none은 숨기는게 아니라, 없애는것 // visibility hidden은 영역은 있는데 안보이는것 // inline-block 그 영역만큼만 차지하고 블럭처리 / inline은 텍스트 처리
+						table은 박스를 테이블처럼 쓴다는것 // flex는 다음에
+					 2) overflow 넘치냐 안넘치냐 
+					 3) position 기준을 정해서 상대적으로 움직일것인지, 절대적으로 움직일것인지 정하는것 / 기본 설정은 static , relative 부모 , absolute 자식 , fixed 브라우저전체에서 자유롭고싶다 부모없이. 
+					    position과 같이 사용하는 속성 top,bottom/left,right / z-index: 0 클수록 우선순위 
+					 4) width / height 단위 px, em, rem, % 
+					 5) margin 외부여백 / padding 내부여백 / border 테두리 라인 
+					 6) background /image,color,position,repeat,size
+					 7) text / font-size 단위 px, em , rem /font-weight / line-height / color / text-align
+					 8) 기타 요소 (flex 속성 등 )
+
+					 css style먹히는 우선 순위
+					 1) important
+					 2) 그다음부터는 절차지향대로 위에서 아래로 읽음 
+					 3) 인접태그를 다 작성해서 부여해야함. 상위 스타일 하위 스타일에 상속된다.
+
+					 float를 자식이 썻을때 부모가 너비높이를 자식만치 못가짐. 근데 인식하려면 display:inline-block를 가지게 하면 먹음. 하지만, inline-block은 텍스트로 인식하기때문에 line-height가 먹는다. 그래서 font-size 0줘야함
+					 또는 float썻을떄 부모에 overflow: hidden 적용하면, 넘치지않는 만큼 인식한다.
+					 float은 절대적이라서, 먼저 속성 부여받은쪽이 움직이고 행동한다.
+
+					 float 가상 선택자로 영역잡는거랑, 가상선택자 활용법
+					 nth:child
+					 가상선택자 다뤄보기
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
