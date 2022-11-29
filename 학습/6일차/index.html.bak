@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>6일차</title>
+
+	<style>
+		#box01{/* display:inline-block;  overflow: hidden;*/ position: relative; width: 500px; /*height: 300px;*/ margin: 0 10px 10px 0; padding: 10px 10px; border: 3px solid red; background-color: yellow;}
+		#box01::after{content:""; display:block; clear:both;}
+		#box02{display:inline-block; overflow: hidden; position: relative; width: 500px; height: 300px; margin: 0 10px 10px 0; padding: 10px 10px; border: 3px solid red; background-color: green;}
+		#box01 .box{float:left; width:50px; height:50px; margin-right: 15px;font-size: 16px; color:#fff; background-color:blue;}
+/* 		#box01 .box.box-02{background-color:green;}
+		#box01 .box-03{border:3px dotted #fff;} */
+
+		#box01 .box-01 > .box-01-01{height:25px; background-color:red;}
+
+
+		#box02 .box{float:left; width:30px; height:30px; margin-right:15px; background-color:#000;}
+		/* 첫번째 */
+		#box02 .box:first-child{background-color:#fff;}
+		#box02 .box:first-child:hover{background-color:#000;}
+		#box02 .box:nth-child(2){border:3px solid pink;}
+		#box02 .box:nth-child(2n+1){color:yellow;}
+		#box input[type="text"]{}
+		#box .box[data-item='test']{background-color:#fff;}
+	</style>
+</head>
+<body>
+	<div id="box01">
+		<div class="box box-01">
+			첫 번째
+			<div class="box-01-01" data-item='test'>
+			첫 번째 자식
+			</div>
+		</div>
+		<div class="box box-02">
+			두 번째
+			<div class="box-01-01">
+			첫 번째 자식
+			</div>
+		</div>
+		<div class="box box-03">
+			세 번째
+		</div>
+	</div>
+
+	<div id="box02">
+		<div class="box">
+			첫 번째
+		</div>
+		<div class="box">
+			두 번째
+		</div>
+		<div class="box">
+			세 번째
+		</div>
+		<div class="box">
+			네 번째
+		</div>
+	</div>
+
+	<div class="note">
+		<p>
+			
+		</p>
+	</div>
+</body>
+</html>
