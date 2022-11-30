@@ -22,7 +22,7 @@
 		#box02 .box:nth-child(2){border:3px solid pink;}
 		#box02 .box:nth-child(2n+1){color:yellow;}
 		#box input[type="text"]{}
-		#box .box[data-item='test']{background-color:#fff;}
+		#box01 .box-01-01[data-item='test']{background-color:#fff;}
 	</style>
 </head>
 <body>
