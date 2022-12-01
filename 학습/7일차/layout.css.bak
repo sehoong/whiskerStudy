@@ -1,0 +1,8 @@
+#wrap{position:relative;}
+#header{background-color:#000;}
+#header::after{content:""; display:block; clear:both;}
+#header #logo{float:left; color:#fff;}
+#header #nav{float:left;}
+#header #nav > ul{margin-left:30px;}
+#header #nav > ul::after{content:""; display:block; clear:both;}
+#header #nav > ul > li{float:left; width:50px; height:50px; background-color:red;}
