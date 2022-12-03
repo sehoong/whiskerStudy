@@ -1,0 +1,17 @@
+#wrap{position:relative;}
+.con-area{width:100%; max-width:1400px; margin:0 auto;}
+.con-area:after{content:"";display:block;clear:both;}
+#header{position: absolute; top:0; left: 0; width:100%; height: 100px; padding: 0 150px; background-color:#fff; border:1px solid  #000;}
+#header::after{content:""; display:block; clear:both;}
+#header #logo{display:block; float:left; width:150px; padding: 20px 0;}
+#header #logo > a > img{}
+#header #nav{float:left; width: 800px; margin:0 auto;}
+#header #nav > ul{margin-left:30px; text-align:center;}
+#header #nav > ul::after{content:""; display:block; clear:both;}
+#header #nav > ul > li{float:left; width:25%; height:100px;}
+#header #nav > ul > li > a{display:block; font-size: 18px; font-weight: 700; line-height:100px; transition: color .3s;}
+#header #nav > ul > li > a:hover{color:#00AAFF;}
+#header .site-map{float:left; width:150px; margin-top: 40px;}
+#main{position:absolute; top:100px; left:0;}
+#main .visual-wrap{display:block; width:100%; height:800px; background-image:url(../images/main-bg.jpg); background-repeat:no-repeat; background-position:center; background-size:cover;}
+#main #section-01 .con-area .info{margin-bottom:100px; text-align:center; color:#fff;}

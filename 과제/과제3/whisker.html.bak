@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>(주)Whisker</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body>
+	<div id="wrap">
+
+		<header id="header">
+			<div class="con-area">
+				<h1 id="logo">
+					<a href="whikser.html"><img src="images/logo.jpg" alt="whisker 로고"></a>
+				</h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="#">동물병원소개</a></li>
+						<li><a href="#">일반진료안내</a></li>
+						<li><a href="#">진료예약</a></li>
+						<li><a href="#">커뮤니티</a></li>
+					</ul>
+				</nav>
+				<button type="button" class="site-map">사이트맵</button>
+			</div>
+		</header>
+
+		<main id="main">
+			<div class="visual-wrap">
+				<section id="section-01">
+					<div class="con-area">
+						<div class="info">
+							<h2>Whisker</h2>
+							<p>고양이의 수염은 피부아래에 있는 신경계와 밀접하게 연결되어
+							<br>하나의 감각기관 역할을 합니다. 즉 수염을 센서처럼 이용하여
+							<br> 주변 물체의 여부를 감지하여 이리저리 잘 피해 다니려고 수염을 사용하려 노력합니다.
+							우리 Whisker 또한 고객여러분들의 만족을 위해 감각을 키우도록 노력하겠습니다.
+							</p>
+						</div>
+					</div>
+				 </section>
+				 <section id="section-02">
+					<div class="con-area">
+						<ul>
+							<li>
+								<a href="#">고양이 건강검진센터</a>
+							</li>
+							<li>
+								<a href="#">고양이 종양센터</a>
+							</li>
+							<li>
+								<a href="#">고양이 헌혈프로그램</a>
+							</li>
+							<li>
+								<a href="#">고양이 줄기세포 치료</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+		
+			</div>
+		</main>
+		<footer id="footer">
+			<div class="con-area">
+				<div class="logo">로고</div>
+				<div class="footer-info">
+					<address>Cat's tower</address>
+					<p>COPYRIGHT # 2022-12-01 catsaysmeow</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
