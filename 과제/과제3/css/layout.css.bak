@@ -12,6 +12,6 @@
 #header #nav > ul > li > a{display:block; font-size: 18px; font-weight: 700; line-height:100px; transition: color .3s;}
 #header #nav > ul > li > a:hover{color:#00AAFF;}
 #header .site-map{float:left; width:150px; margin-top: 40px;}
-#main{position:absolute; top:100px; left:0;}
+#main{position:absolute; top:100px; left:0; width:100%: height:100%;}
 #main .visual-wrap{display:block; width:100%; height:800px; background-image:url(../images/main-bg.jpg); background-repeat:no-repeat; background-position:center; background-size:cover;}
 #main #section-01 .con-area .info{margin-bottom:100px; text-align:center; color:#fff;}
