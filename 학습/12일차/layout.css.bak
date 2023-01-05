@@ -1,0 +1,29 @@
+html,body{height:100%;}
+#wrap{position:relative; min-height:100%;}
+#header{display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #000; height:70px;}
+#header .navi-wrap{display:flex; align-items:center;}
+#header .navi-wrap #logo{margin: 0 20px;}
+#header .navi-wrap > nav > ul{display:flex;}
+#header .navi-wrap > nav > ul > li{padding: 0 15px;}
+#header .navi-wrap .info-menu{display:flex;}
+#header .navi-wrap .info-menu > li{padding: 0 15px;}
+#header .navi-wrap .sitemap-btn{margin: 0 20px;}
+#main{display:flex; height:calc(100vh - 70px); justify-content:center; align-items:center;}
+#main #content{display:flex; width:1000px; height: 600px; }
+#main #content .item-01{flex: 1; width: 33.33%; padding-right:15p;}
+#main #content .item-01 > a{display:block; height:100%; background-color:green;}
+
+#main #content .item-02{display:flex; width:66.66%; flex-wrap:wrap; margin: -15px -15px -15px 0;}
+#main #content .item-02 > li{width:50%; padding: 15px;}
+
+#main #content .item-02 > li > a{display:block; height: 100%;}
+#main #content .item-02 > li:nth-child(1)>a{background-color:red;}
+#main #content .item-02 > li:nth-child(2)>a{background-color:blue;}
+#main #content .item-02 > li:nth-child(3)>a{background-color:yellow;}
+#main #content .item-02 > li:nth-child(4)>a{background-color:pink;}
+
+
+#main #content .item-02 > li:nth-child(1){order:}
+#main #content .item-02 > li:nth-child(2){background-color:blue;}
+#main #content .item-02 > li:nth-child(3){background-color:yellow;}
+#main #content .item-02 > li:nth-child(4){order:-1;}

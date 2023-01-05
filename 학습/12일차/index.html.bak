@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8"/>
+	<title>12일차</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+<div id="wrap">
+	<header id="header">
+		<div class="navi-wrap">
+			<h1 id="logo"><a href="#">로고</a></h1>
+			<nav>
+				<ul>
+					<li><a href="#">메뉴1</a></li>
+					<li><a href="#">메뉴2</a></li>
+					<li><a href="#">메뉴3</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="navi-wrap">
+			<ul class="info-menu">
+				<li><a href="#">메뉴1</a></li>
+				<li><a href="#">메뉴2</a></li>
+				<li><a href="#">메뉴3</a></li>
+			</ul>
+			<div class="right-menu">
+				<a href="#">로그인</a>
+				<a href="#" class="sitemap-btn">사이트맵</a>
+			</div>
+		</div>
+	</header>
+	<main id="main">
+		<div id="content">
+			<div class="item-01">
+				1번 박스
+			</div>
+			<ul class="item-02">
+				<li>2번 박스</li>
+				<li>3번 박스</li>
+				<li>4번 박스</li>
+				<li>5번 박스</li>
+			</ul>	
+		</div>
+	</main>
+</div>
+</body>
+</html>
